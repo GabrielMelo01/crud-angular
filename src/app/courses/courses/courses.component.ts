@@ -14,7 +14,7 @@ export class CoursesComponent implements OnInit{
   displayedColumns = ['name', 'category'];
 
   constructor() {
-    // this.courses = []; ==> podese inicializar no construtor
+    // this.courses = []; ==> pode-se inicializar no construtor
   }
 
   ngOnInit(): void {
